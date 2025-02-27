@@ -1,0 +1,16 @@
+#joker {
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+  background-color: rgb(66, 108, 167);
+  color: aliceblue;
+  border: none;
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 50px;
+}
+#joke {
+  padding-top: 50px;
+  font-size: 24px;
+  text-align: center;
+}

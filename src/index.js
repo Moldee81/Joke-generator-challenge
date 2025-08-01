@@ -22,7 +22,7 @@ let apiKey = "6dod2fbfa8c43fe552ftae49bc36d90b";
 let context =
   "you have a fantastic sense of humor and you know a lot of short jokes about Polish people, please provide a funny joke";
 let prompt =
-  "Tell a short joke about Polish without any intro or sidenotes, be concise"; // Fixed "wihtout" to "without"
+  "Tell a short joke without any intro or side notes, be concise"; // Fixed "wihtout" to "without"
 let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
 let jokeElement = document.querySelector("#joke");
